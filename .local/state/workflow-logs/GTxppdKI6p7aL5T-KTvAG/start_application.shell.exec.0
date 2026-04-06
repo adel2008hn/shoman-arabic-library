@@ -1,0 +1,74 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K9:47:09 PM [express] serving on port 5000
+
+A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+9:47:13 PM [express] POST /api/stats/visit 200 in 9ms
+9:47:13 PM [express] GET /api/books 200 in 10ms :: [{"id":21,"title":"ت1","authorName":"ت1","authorId":1,"mainCategory":"أعمال طلاب المدرسة","subCategory":"مقالات أدبية","volumes":1,"coverUrl":null,"description":null,"fileUrl":"/uploads/1773608870964-23kdit6co5t.pdf","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-15T21:07:53.304Z"},{"id":20,"title":"ه","authorName":"ه","authorId":1,"mainCategory":"أعمال طلاب المدرسة","subCategory":"قصص قصيرة","volumes":1,"coverUrl":null,"description":null,"fileUrl":"https://drive.google.com/file/d/1wlKbM2iRM0dxBnHIvbUjKuY3QX4vxP0g/view?usp=drive_link","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-09T08:38:20.793Z"},{"id":19,"title":" المتنبي","authorName":"عادل","authorId":1,"mainCategory":"الشعر","subCategory":"شعر صدر الإسلام","volumes":1,"coverUrl":"https://www.noor-book.com/publice/covers_cache_webp/13/e/6/0/63eb7cdccce6071953e2642d04c0bf11.png.webp","description":null,"fileUrl":"/uploads/1773004004312-e76a3gx6z1.pdf","fileName":"Noor-Book.com  Ø¯ÙÙØ§Ù Ø§ÙÙØªÙØ¨Ù.pdf","totalRating":0,"ratingCount":0,"createdAt":"2026-03-08T21:06:46.811Z"},{"id":18,"title":"كتاب اختبار الصور","authorName":"مؤلف تجريبي","authorId":1,"mainCategory":"علوم النحو والصرف","subCategory":"النحو الأساسي","volumes":1,"coverUrl":"https://www.noor-book.com/publice/covers_cache_webp/1/2/5/4/9a32efe4c9254f1e9eadd406fa8152ff.jpg.webp","description":null,"fileUrl":"https://example.com/test.pdf","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-04T11:07:49.037Z"},{"id":13,"title":"ت3","authorName":"ت3","authorId":1,"mainCategory":"علم العروض والقوافي","subCategory":"القوافي","volumes":1,"coverUrl":null,"description":null,"fileUrl":"https://drive.google.com/file/d/1SY0JmXESoohd0pxJCA8DIuy-FuaucC69/view?usp=drive_link","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-02-27T12:46:26.499Z"}]
+9:47:13 PM [express] GET /api/stats 200 in 16ms
+9:47:13 PM [express] GET /api/qrcode 200 in 15ms
+9:47:13 PM [express] GET /api/favorites 200 in 11ms
+9:47:13 PM [express] GET /api/auth/me 401 in 4ms :: {"message":"Not authenticated"}
+9:47:36 PM [express] POST /api/auth/login 200 in 98ms :: {"id":8,"username":"عادل","role":"author"}
+9:47:36 PM [express] POST /api/stats/visit 200 in 20ms
+9:47:36 PM [express] GET /api/stats 200 in 20ms
+9:47:36 PM [express] GET /api/favorites 200 in 13ms
+9:47:36 PM [express] GET /api/qrcode 200 in 20ms
+9:47:44 PM [express] GET /api/books/my 500 in 6ms :: {"message":"invalid input syntax for type integer: \"NaN\""}
+9:48:00 PM [express] POST /api/upload 200 in 1764ms :: {"url":"/uploads/1773611279255-nnipc2cq8u.pdf","fileName":"Ø§ÙÙØ¹ÙÙØ§Øª Ø§ÙØ¹Ø´Ø±.pdf"}
+9:48:01 PM [express] POST /api/books 201 in 9ms :: {"id":22,"title":"ت2","authorName":"ت2","authorId":8,"mainCategory":"تاريخ الأدب العربي","subCategory":"الأدب الجاهلي","volumes":1,"coverUrl":null,"description":"","fileUrl":"/uploads/1773611279255-nnipc2cq8u.pdf","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-15T21:48:01.184Z"}
+9:48:01 PM [express] GET /api/books 200 in 13ms :: [{"id":22,"title":"ت2","authorName":"ت2","authorId":8,"mainCategory":"تاريخ الأدب العربي","subCategory":"الأدب الجاهلي","volumes":1,"coverUrl":null,"description":"","fileUrl":"/uploads/1773611279255-nnipc2cq8u.pdf","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-15T21:48:01.184Z"},{"id":21,"title":"ت1","authorName":"ت1","authorId":1,"mainCategory":"أعمال طلاب المدرسة","subCategory":"مقالات أدبية","volumes":1,"coverUrl":null,"description":null,"fileUrl":"/uploads/1773608870964-23kdit6co5t.pdf","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-15T21:07:53.304Z"},{"id":20,"title":"ه","authorName":"ه","authorId":1,"mainCategory":"أعمال طلاب المدرسة","subCategory":"قصص قصيرة","volumes":1,"coverUrl":null,"description":null,"fileUrl":"https://drive.google.com/file/d/1wlKbM2iRM0dxBnHIvbUjKuY3QX4vxP0g/view?usp=drive_link","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-09T08:38:20.793Z"},{"id":19,"title":" المتنبي","authorName":"عادل","authorId":1,"mainCategory":"الشعر","subCategory":"شعر صدر الإسلام","volumes":1,"coverUrl":"https://www.noor-book.com/publice/covers_cache_webp/13/e/6/0/63eb7cdccce6071953e2642d04c0bf11.png.webp","description":null,"fileUrl":"/uploads/1773004004312-e76a3gx6z1.pdf","fileName":"Noor-Book.com  Ø¯ÙÙØ§Ù Ø§ÙÙØªÙØ¨Ù.pdf","totalRating":0,"ratingCount":0,"createdAt":"2026-03-08T21:06:46.811Z"},{"id":18,"title":"كتاب اختبار الصور","authorName":"مؤلف تجريبي","authorId":1,"mainCategory":"علوم النحو والصرف","subCategory":"النحو الأساسي","volumes":1,"coverUrl":"https://www.noor-book.com/publice/covers_cache_webp/1/2/5/4/9a32efe4c9254f1e9eadd406fa8152ff.jpg.webp","description":null,"fileUrl":"https://example.com/test.pdf","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-04T11:07:49.037Z"},{"id":13,"title":"ت3","authorName":"ت3","authorId":1,"mainCategory":"علم العروض والقوافي","subCategory":"القوافي","volumes":1,"coverUrl":null,"description":null,"fileUrl":"https://drive.google.com/file/d/1SY0JmXESoohd0pxJCA8DIuy-FuaucC69/view?usp=drive_link","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-02-27T12:46:26.499Z"}]
+9:48:01 PM [express] POST /api/stats/visit 200 in 23ms
+9:48:01 PM [express] GET /api/stats 200 in 25ms
+9:48:01 PM [express] GET /api/qrcode 200 in 29ms
+9:48:01 PM [express] GET /api/favorites 200 in 33ms
+10:03:02 PM [express] GET /api/books/my 500 in 258ms :: {"message":"invalid input syntax for type integer: \"NaN\""}
+10:03:09 PM [express] POST /api/stats/visit 200 in 89ms
+10:03:09 PM [express] GET /api/stats 200 in 8ms
+10:03:09 PM [express] GET /api/qrcode 200 in 13ms
+10:03:09 PM [express] GET /api/favorites 200 in 19ms
+10:03:12 PM [express] POST /api/stats/visit 200 in 11ms
+10:03:12 PM [express] GET /api/qrcode 200 in 23ms
+10:03:12 PM [express] GET /api/stats 200 in 25ms
+10:03:12 PM [express] GET /api/favorites 200 in 35ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:04:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/dashboard.tsx, /src/index.css[22m
+[2m10:04:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33m@radix-ui/react-dialog[32m[39m
+[2m10:04:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+10:04:26 PM [express] POST /api/stats/visit 200 in 12ms
+10:04:26 PM [express] GET /api/books 304 in 12ms :: [{"id":22,"title":"ت2","authorName":"ت2","authorId":8,"mainCategory":"تاريخ الأدب العربي","subCategory":"الأدب الجاهلي","volumes":1,"coverUrl":null,"description":"","fileUrl":"/uploads/1773611279255-nnipc2cq8u.pdf","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-15T21:48:01.184Z"},{"id":21,"title":"ت1","authorName":"ت1","authorId":1,"mainCategory":"أعمال طلاب المدرسة","subCategory":"مقالات أدبية","volumes":1,"coverUrl":null,"description":null,"fileUrl":"/uploads/1773608870964-23kdit6co5t.pdf","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-15T21:07:53.304Z"},{"id":20,"title":"ه","authorName":"ه","authorId":1,"mainCategory":"أعمال طلاب المدرسة","subCategory":"قصص قصيرة","volumes":1,"coverUrl":null,"description":null,"fileUrl":"https://drive.google.com/file/d/1wlKbM2iRM0dxBnHIvbUjKuY3QX4vxP0g/view?usp=drive_link","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-09T08:38:20.793Z"},{"id":19,"title":" المتنبي","authorName":"عادل","authorId":1,"mainCategory":"الشعر","subCategory":"شعر صدر الإسلام","volumes":1,"coverUrl":"https://www.noor-book.com/publice/covers_cache_webp/13/e/6/0/63eb7cdccce6071953e2642d04c0bf11.png.webp","description":null,"fileUrl":"/uploads/1773004004312-e76a3gx6z1.pdf","fileName":"Noor-Book.com  Ø¯ÙÙØ§Ù Ø§ÙÙØªÙØ¨Ù.pdf","totalRating":0,"ratingCount":0,"createdAt":"2026-03-08T21:06:46.811Z"},{"id":18,"title":"كتاب اختبار الصور","authorName":"مؤلف تجريبي","authorId":1,"mainCategory":"علوم النحو والصرف","subCategory":"النحو الأساسي","volumes":1,"coverUrl":"https://www.noor-book.com/publice/covers_cache_webp/1/2/5/4/9a32efe4c9254f1e9eadd406fa8152ff.jpg.webp","description":null,"fileUrl":"https://example.com/test.pdf","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-04T11:07:49.037Z"},{"id":13,"title":"ت3","authorName":"ت3","authorId":1,"mainCategory":"علم العروض والقوافي","subCategory":"القوافي","volumes":1,"coverUrl":null,"description":null,"fileUrl":"https://drive.google.com/file/d/1SY0JmXESoohd0pxJCA8DIuy-FuaucC69/view?usp=drive_link","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-02-27T12:46:26.499Z"}]
+10:04:26 PM [express] GET /api/auth/me 200 in 9ms :: {"id":8,"username":"عادل","role":"author"}
+10:04:26 PM [express] GET /api/stats 200 in 16ms
+10:04:26 PM [express] GET /api/qrcode 200 in 13ms
+10:04:26 PM [express] GET /api/favorites 200 in 28ms

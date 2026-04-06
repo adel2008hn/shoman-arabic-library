@@ -1,0 +1,78 @@
+[1G[0K⠙[1G[0K
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K⠙[1G[0K8:51:56 AM [express] serving on port 5000
+
+A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+8:52:04 AM [express] POST /api/stats/visit 200 in 11ms :: {"success":true}
+8:52:04 AM [express] GET /api/stats 200 in 7ms :: {"visits":181,"bookCount":6}
+8:52:04 AM [express] GET /api/books 304 in 29ms :: [{"id":20,"title":"ه","authorName":"ه","authorId":1,"mainCategory":"أعمال طلاب المدرسة","subCategory":"قصص قصيرة","volumes":1,"coverUrl":null,"description":null,"fileUrl":"https://drive.google.com/file/d/1wlKbM2iRM0dxBnHIvbUjKuY3QX4vxP0g/view?usp=drive_link","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-09T08:38:20.793Z"},{"id":19,"title":" المتنبي","authorName":"عادل","authorId":1,"mainCategory":"الشعر","subCategory":"شعر صدر الإسلام","volumes":1,"coverUrl":"https://www.noor-book.com/publice/covers_cache_webp/13/e/6/0/63eb7cdccce6071953e2642d04c0bf11.png.webp","description":null,"fileUrl":"/uploads/1773004004312-e76a3gx6z1.pdf","fileName":"Noor-Book.com  Ø¯ÙÙØ§Ù Ø§ÙÙØªÙØ¨Ù.pdf","totalRating":0,"ratingCount":0,"createdAt":"2026-03-08T21:06:46.811Z"},{"id":18,"title":"كتاب اختبار الصور","authorName":"مؤلف تجريبي","authorId":1,"mainCategory":"علوم النحو والصرف","subCategory":"النحو الأساسي","volumes":1,"coverUrl":"https://www.noor-book.com/publice/covers_cache_webp/1/2/5/4/9a32efe4c9254f1e9eadd406fa8152ff.jpg.webp","description":null,"fileUrl":"https://example.com/test.pdf","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-04T11:07:49.037Z"},{"id":14,"title":"ت4","authorName":"ع","authorId":4,"mainCategory":"علم العروض والقوافي","subCategory":"أوزان الشعر","volumes":1,"coverUrl":null,"description":null,"fileUrl":"https://drive.google.com/file/d/1TOl71aJ-S1sgDq5tI4FUWnUKUNshgstd/view?usp=drive_link","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-04T10:12:35.717Z"},{"id":13,"title":"ت3","authorName":"ت3","authorId":1,"mainCategory":"علم العروض والقوافي","subCategory":"القوافي","volumes":1,"coverUrl":null,"description":null,"fileUrl":"https://drive.google.com/file/d/1SY0JmXESoohd0pxJCA8DIuy-FuaucC69/view?usp=drive_link","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-02-27T12:46:26.499Z"},{"id":10,"title":"عمك","authorName":"عمك","authorId":4,"mainCategory":"الشعر","subCategory":"الشعر العربي الحديث","volumes":1,"coverUrl":"https://www.noor-book.com/publice/covers_cache_webp/1/2/5/4/9a32efe4c9254f1e9eadd406fa8152ff.jpg.webp","description":"انا","fileUrl":"https://drive.google.com/file/d/1nk8liweKUMuguKjpPWXMrzM37X960oXL/view?usp=drivesdk","fileName":null,"totalRating":10,"ratingCount":2,"createdAt":"2026-02-26T14:24:33.033Z"}]
+8:52:04 AM [express] GET /api/auth/me 304 in 32ms :: {"id":1,"username":"admin","role":"admin"}
+8:52:04 AM [express] GET /api/qrcode 304 in 35ms :: {"qrCode":"data:image/png;base64,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"}
+8:52:04 AM [express] GET /api/favorites 304 in 12ms :: []
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:53:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/home.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:53:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/home.tsx, /src/index.css[22m [33m(x2)[39m
+8:53:25 AM [express] POST /api/stats/visit 200 in 20ms :: {"success":true}
+8:53:25 AM [express] POST /api/stats/visit 200 in 8ms :: {"success":true}
+8:53:27 AM [express] GET /api/books 304 in 6ms :: [{"id":20,"title":"ه","authorName":"ه","authorId":1,"mainCategory":"أعمال طلاب المدرسة","subCategory":"قصص قصيرة","volumes":1,"coverUrl":null,"description":null,"fileUrl":"https://drive.google.com/file/d/1wlKbM2iRM0dxBnHIvbUjKuY3QX4vxP0g/view?usp=drive_link","fileName":null,"totalRating":0,"ratingCount":0,"createdAt":"2026-03-09T08:38:20.793Z"}]
